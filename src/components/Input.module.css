@@ -1,0 +1,44 @@
+.input {
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input label {
+  display: none;
+}
+
+.input input {
+  font-size: var(--f-s-p);
+  font-family: var(--font);
+  width: 500px;
+  max-width: 80%;
+  border-radius: 10px 0 0 10px;
+}
+
+.input input,
+.input button {
+  padding: 15px;
+  height: 48px;
+  border: none;
+  outline: none;
+}
+
+.input button {
+  background-color: rgb(15, 15, 15);
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.input button:hover {
+  background-color: rgb(59, 59, 59);
+  transition: background 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+  .input input {
+    width: 80%;
+  }
+}

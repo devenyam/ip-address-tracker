@@ -1,0 +1,12 @@
+.header {
+  font-size: 28px;
+  font-weight: var(--f-w-m);
+  color: var(--white);
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    font-size: 22px;
+    text-align: center;
+  }
+}

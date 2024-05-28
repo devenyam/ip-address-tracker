@@ -1,0 +1,17 @@
+.mapContainer {
+  /* grid-row-start: 3;
+  grid-row-end: -1;
+  grid-column-start: 1;
+  grid-column-end: -1; */
+
+  height: 100vh;
+  z-index: 2;
+  margin-top: -0.5rem;
+  /* background-color: brown; */
+
+  /* overflow: hidden; */
+}
+
+.map {
+  height: 100%;
+}

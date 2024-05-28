@@ -1,0 +1,30 @@
+/* .app {
+  display: grid;
+  grid-template-columns: clamp(100px, 200px, 300px) 1fr 1fr clamp(
+      100px,
+      200px,
+      300px
+    );
+  grid-template-rows: repeat(5, 1fr);
+  max-width: 1700px;
+  margin-inline: auto;
+  min-height: 100vh;
+} */
+
+.pictureBackground,
+.tracker {
+  grid-row: 1 / 2;
+  /*   width: 100%; */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media screen and (max-width: 810px) {
+  /* .app {
+    grid-template-columns: auto 1fr 1fr auto;
+  } */
+}
